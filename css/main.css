@@ -1,0 +1,79 @@
+.main {
+  background-color: rgba(255, 255, 255, 0.128);
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  margin: 40px auto;
+
+  border-radius: 7px;
+}
+
+.main-bar {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.main-bar h1 {
+  font-family: "Heebo";
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.869);
+
+  padding: 2px 14px 2px 14px;
+  margin-top: 25px;
+  margin-left: 10px;
+
+  border-radius: 5px;
+}
+
+.main-bar .Pomodoro {
+  font-family: "Heebo";
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.869);
+
+  background-color: rgba(0, 0, 0, 0.128);
+
+  padding: 2px 14px 2px 14px;
+  margin-top: 25px;
+  margin-left: 10px;
+
+  border-radius: 5px;
+}
+
+.clock {
+  text-align: center;
+
+  margin-top: 9px;
+  margin-bottom: 2px;
+}
+
+.clock h1 {
+  color: white;
+  font-size: 8rem;
+  font-family: "Heebo";
+}
+
+.button {
+  text-align: center;
+
+  background-color: white;
+
+  width: 40%;
+
+  margin: auto auto 25px auto;
+  border-radius: 7px;
+}
+
+.button h1 {
+  text-transform: uppercase;
+
+  color: rgba(199, 60, 63, 90%);
+  
+  font-size: 25px;
+  font-family: Heebo;
+
+  padding: 12px 40px 12px 40px;
+  
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
