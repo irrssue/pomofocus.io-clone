@@ -1,0 +1,83 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding-bottom: 15px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+}
+
+.Pomofocus-heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Pomofocus-heading img {
+  height: 25px;
+  margin: 5px;
+}
+.Pomofocus-heading h1 {
+  color: white;
+  font-family: "Heebo";
+  font-size: 23px;
+}
+
+
+.Pomofocus-nav {
+  display: flex;
+}
+
+.Pomofocus-nav .report, .setting, .login {
+  display: flex;
+}
+
+
+
+
+
+.report {
+  align-items: center; 
+  background: rgba(255, 255, 255, 0.322);
+  padding: 7px;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+.report img {height: 15px; margin-right: 4px;}
+.report h2 {
+  color: rgba(255, 255, 255, 0.823);
+  font-family: "Heebo";
+  font-size: 14px;
+}
+
+
+
+.setting {
+  align-items: center; 
+  background: rgba(255, 255, 255, 0.322);
+  padding: 7px;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+.setting img {height: 15px; margin-right: 4px;}
+.setting h2 {
+  color: rgba(255, 255, 255, 0.823);
+  font-family: "Heebo";
+  font-size: 14px;
+}
+
+
+
+
+.login {
+  align-items: center; 
+  background: rgba(255, 255, 255, 0.322);
+  padding: 7px;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+.login img {height: 15px; margin-right: 4px;}
+.login h2 {
+  color: rgba(255, 255, 255, 0.823);
+  font-family: "Heebo";
+  font-size: 14px;
+}
